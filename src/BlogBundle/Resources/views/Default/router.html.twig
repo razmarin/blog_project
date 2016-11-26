@@ -1,0 +1,6 @@
+{% extends 'BlogBundle::layout.html.twig' %}
+{% block body %}
+    <a href="{{ path("blog_route", {'slug' : 'mere'}) }}"> {{ path("blog_route", {'slug' : 'mere'}) }}</a>
+    </br>
+    <a href="{{ url("blog_route", {'slug' : 'mere'}) }}"> {{ url("blog_route", {'slug' : 'mere'}) }}</a>
+{% endblock %}

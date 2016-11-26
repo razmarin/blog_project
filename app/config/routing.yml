@@ -1,0 +1,15 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+blog:
+    resource: "@BlogBundle/Controller/"
+    type:     annotation
+#    prefix: /blog
+
+admin_area:
+    resource: "@SonataAdminBundle/Resources/config/routing/sonata_admin.xml"
+    prefix: /admin
+
+#logout:
+#    path: /logout
